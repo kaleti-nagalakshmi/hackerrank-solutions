@@ -1,0 +1,17 @@
+import numpy as np
+n,m = map(int,input().split())
+
+
+arr_a =np.array([list(map(int,input().split()))for i in range(n)])
+arr_b =np.array([list(map(int,input().split()))for j in range(n)])
+    
+    
+
+
+print(arr_a + arr_b)
+print(arr_a - arr_b)
+print(arr_a * arr_b)
+print(arr_a // arr_b)
+print(arr_a % arr_b)
+print(arr_a ** arr_b)
+
