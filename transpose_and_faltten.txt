@@ -1,0 +1,13 @@
+import numpy as np 
+n,m = map(int,input().split())
+arr = []
+for i in range(n):
+    row = list(map(int,input().split()))
+    arr.append(row)
+my_array = np.array(arr)
+print(np.transpose(my_array))
+print(my_array.flatten())
+
+
+
+ 
