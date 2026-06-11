@@ -1,0 +1,27 @@
+import numpy as np
+
+n,m,p = map(int,input().split())
+a = []
+b = []
+for i in range(n):
+    row_a = list(map(int,input().split()))
+    a.append(row_a)
+for i in range(m):
+    row_b = list(map(int,input().split()))
+    b.append(row_b)
+    
+arr_a = np.array(a)
+arr_b = np.array(b)
+
+print(np.concatenate((arr_a,arr_b),axis = 0))
+
+
+    
+    
+
+    
+    
+    
+     
+    
+
